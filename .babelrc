@@ -7,5 +7,12 @@
     "@babel/plugin-proposal-numeric-separator",
     "@babel/plugin-syntax-throw-expressions",
     "@babel/plugin-proposal-throw-expressions",
+    "@babel/plugin-proposal-optional-chaining",
+    [
+      "@babel/plugin-proposal-pipeline-operator",
+      {
+        "proposal": "minimal"
+      }
+    ]
   ]
 }
